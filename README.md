@@ -1,8 +1,5 @@
 
 
-https://mydnic.be/post/super-easy-way-to-authenticate-an-api-user-in-your-laravel-application-without-using-laravel-passport
-
-
 ## Setup (laravel 5.8)
 
 1.  Firstly, setup wamp, lamp or xampp to your machine and run it
@@ -15,18 +12,23 @@ https://mydnic.be/post/super-easy-way-to-authenticate-an-api-user-in-your-larave
 7.  Run `php artisan config:clear`
 8.  Run `php artisan config:cache` 
 
-
-
 ## Unit Testing 
 Start your XWAMP or LAMP servers.
 
-//all test are in ./LaravelAPIWithCSV\tests\Unit
+//all test are in ./LaravelAPIWithCSV/tests/Unit
 
 Before run the app, run unit test command from project folder. 
 
 ```bash
 ./vendor/bin/phpunit
 ```
+## API for test the CSV data
+
+GET http://localhost/LaravelAPIWithCSV/api/v1/transactions
+
+
+
+
 If tests are running perfectly without error then your project is ready.
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
