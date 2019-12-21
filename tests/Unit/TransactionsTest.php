@@ -3,7 +3,7 @@
 namespace Tests\Unit;
 
 use Tests\TestCase;
-use App\Http\Controllers\ApiController\FilmsController;
+use App\Http\Controllers\ApiController\TransactionsController;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class TransactionsTest extends TestCase
@@ -30,7 +30,7 @@ class TransactionsTest extends TestCase
         try { 
             
             // We can call api in this way too... 
-            $response = file_get_contents('http://localhost/xfilms-test/api/v1/transactions');  
+            $response = file_get_contents('http://localhost/LaravelAPIWithCSV/api/v1/transactions');  
             $data = json_decode($response, true);
         } catch (Exception $e) {
             $data = 'Caught exception: '.  $e->getMessage();
