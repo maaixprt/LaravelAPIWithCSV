@@ -5,7 +5,7 @@
 1.  Firstly, setup wamp, lamp or xampp to your machine and run it
 2.  clone the project  
 3.  Download [composer](https://getcomposer.org/download/) if they are not already on your machine.
-4.  Rename `.env.example` file to .env inside your-project-root/xfilms-test and fill the database information (windows wont let you do it, so you have to open `.env.example` into editor and save as `.env` in same directory ).
+4.  Rename `.env.example` file to .env inside your-project-root/LaravelAPIWithCSV  (windows wont let you do it, so you have to open `.env.example` into editor and save as `.env` in same directory ).
 4.  Open the console and `cd server-path/your-download-project/LaravelAPIWithCSV` directory ex `C:\xampp\htdocs\LaravelAPIWithCSV`
 5.  Run `composer install`
 6.  Run `php artisan key:generate` 
